@@ -1,6 +1,15 @@
 <template>
     <v-app id="app">
-      <v-navigation-drawer>
+      <v-navigation-drawer
+          color = "amber"
+          dark
+          expand-on-hover
+          hide-overlay
+          permanent
+          right
+          app
+      
+      >
       </v-navigation-drawer>
     
     <v-content class="px-12 py-3">
