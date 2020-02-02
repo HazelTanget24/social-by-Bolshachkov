@@ -2,14 +2,28 @@
     <v-app id="app">
       <v-navigation-drawer
           color = "amber"
-          dark
+          white
           expand-on-hover
           hide-overlay
           permanent
           right
           app
       
-      >
+        >
+      <v-list
+          nav 
+          shaped
+          dense
+          color="amber"
+        >
+      <v-list-item link>
+        asdasd
+      </v-list-item>
+      <v-list-item>
+        asdasd
+      </v-list-item>
+      </v-list> 
+
       </v-navigation-drawer>
     
     <v-content class="px-12 py-3">
@@ -41,5 +55,9 @@
       color: #42b983;
     }
   }
+}
+
+.v-list-item--link:hover{
+  background-color: #FFB300;
 }
 </style>
