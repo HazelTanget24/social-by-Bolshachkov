@@ -1,9 +1,15 @@
 <template>
-  <v-app id="app">
+    <v-app id="app">
+      <v-navigation-drawer>
+      </v-navigation-drawer>
+    
+    <v-content class="px-12 py-3">
+      <v-container fluid>
+        <router-view/>
+      </v-container>
+    </v-content>
 
-    <v-navigation-drawer></v-navigation-drawer>
-    <v-content></v-content>
-  <v-app id="app">    
+  </v-app>
 </template>
 
 <style lang="scss">
