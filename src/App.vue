@@ -32,13 +32,52 @@
         </v-list-item-content>   
       </v-list-item>
       <!-- Конец профиля-->
+
       <v-divider class="my-2"></v-divider>
-      <v-list-item link>
-        Главная
+
+      <v-list-item link :to="путь">
+
+        <v-list-item-icon>
+          <v-icon>mdi-home-outline</v-icon>
+        </v-list-item-icon>
+
+        <v-list-item-content>
+          <v-list-item-title class="text-left">
+            Главная
+          </v-list-item-title>
+        </v-list-item-content>    
+
       </v-list-item>
-      <v-list-item>
-        вапвавпав
+
+      <v-list-item link :to="путь">
+
+        <v-list-item-icon>
+          <v-icon>mdi-account</v-icon>
+        </v-list-item-icon>
+
+        <v-list-item-content>
+          <v-list-item-title class="text-left">
+            Мой профиль
+          </v-list-item-title>
+        </v-list-item-content>    
+
       </v-list-item>
+
+      <v-list-item link :to="путь">
+
+        <v-list-item-icon>
+          <v-icon>mdi-account-multiple-plus</v-icon>
+        </v-list-item-icon>
+
+        <v-list-item-content>
+          <v-list-item-title class="text-left">
+            Найти друзей
+          </v-list-item-title>
+        </v-list-item-content>    
+
+      </v-list-item>
+
+
       </v-list> 
 
       </v-navigation-drawer>
