@@ -16,24 +16,25 @@
           dense
           color="amber"
         >
-      <v-list-item link>
-        Главная
-      </v-list-item>
+      <!-- Начало профиля-->
       <v-list-item two line>
         <v-list-item-avatar>
           <img src="https://i.pinimg.com/736x/76/ac/2e/76ac2e806dff70aaf5bb016cbb9224e8--finn-the-human-adventure-time.jpg">
         </v-list-item-avatar>
         <v-list-item-content class="text-left">
-          <v-list-item-title>
-            dasdsadsa
+          <v-list-item-title class="font-weight-black">
+            Sociallink
           </v-list-item-title>
           <v-list-item-subtitle>
             adsadsasda
           </v-list-item-subtitle>
 
-        </v-list-item-content>    
-
-
+        </v-list-item-content>   
+      </v-list-item>
+      <!-- Конец профиля-->
+      <v-divider class="my-2"></v-divider>
+      <v-list-item link>
+        Главная
       </v-list-item>
       <v-list-item>
         вапвавпав
