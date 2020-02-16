@@ -48,9 +48,9 @@
         </v-list-item-content>    
 
       </v-list-item>
-
-      <v-list-item link :to="путь">
-
+      <router-link :to=" '/profile/' + переменная_с_твоим_id">
+      <v-list-item>
+       
         <v-list-item-icon>
           <v-icon>mdi-account</v-icon>
         </v-list-item-icon>
@@ -60,9 +60,9 @@
             Мой профиль
           </v-list-item-title>
         </v-list-item-content>    
-
+        
       </v-list-item>
-
+      </router-link>
       <v-list-item link :to="путь">
 
         <v-list-item-icon>
@@ -117,3 +117,16 @@
   background-color: #FFB300;
 }
 </style>
+<script>
+    export default{
+        name: 'app',
+        data(){
+          return{
+            id: 2
+          }
+        }
+
+    }
+
+
+</script>
